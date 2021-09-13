@@ -9,7 +9,7 @@ int main()
     scanf("%d",&num);
     for(j=0;j<num;j++)
     {
-      printspace(num-j);
+      printspace(num-j-1);
       printstar (2*j+1);
       printf("\n");
 
